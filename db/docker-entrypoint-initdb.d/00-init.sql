@@ -1,0 +1,3 @@
+CREATE USER 'guest'@'%' IDENTIFIED BY 'guest';
+CREATE DATABASE db DEFAULT CHARACTER SET utf8mb4;
+GRANT ALL ON guest.* TO 'c5agent'@'%';
